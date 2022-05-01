@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Lora:ital@1&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container {
+    align-items: center;
+    width: 60%;
+    margin-left: 20%;
+}
+
+header {
+background-color: coral;
+height: 100px;
+}
+
+.brand {
+    text-align: center;
+    font-size: 2rem;
+    color: white;    
+    font-family: 'Square Peg', cursive;
+    letter-spacing: 10px;
+}
+
+.brand h1 {
+    align-self: center;
+}
+
+.btn-container {
+    text-align: center;
+    border-bottom: 1px;
+}
+
+.btn {
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 10px 10px 10px 0;
+    background-color: white;
+    border: 1px solid saddlebrown;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px;    
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    transition: .3s;
+}
+
+.card {
+    margin: 20px 10px;
+    width:250px;
+    text-align: center;
+    font-family: 'Libre Bodoni', serif;
+    padding: px;
+    background-color: rgb(247, 247, 247);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+.title {
+    margin-bottom: 5px;
+}
+.desc {
+    margin-bottom:5px;
+}
+.price {
+    padding: 5px;
+    margin-top: 10px;
+}
+img {
+    width: 100%;
+    height: 150px;
+    
+}
+.menu-container {
+    display: grid;
+    width: 50%;
+    margin-left: 23%;
+    grid-template-columns: auto auto auto ;
+    
+}
+
+
+
+
